@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test Page</title>
+
+	<link rel="stylesheet" href="base_styles.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="test_scripts.js"></script>
+</head>
+
+<body>
+	<div id="page-wrap">
+
+		<header>
+		</header>
+
+		<nav>
+			<!-- horizontal navbar -->
+			<div class="box-columns-space-around">
+				<a href="#">placeholder</a>
+				<a href="#">placeholder</a>
+				<a href="#">placeholder</a>
+			</div>
+
+			<!-- hamburger navbar -->
+			<div class="hamburger toggle-hide">
+				<!-- 3 bar hamburger icon -->
+				<div class="burger-slice"></div><div class="burger-slice"></div><div class="burger-slice"></div>
+			</div>
+			<div id="hamburger-content" class="hidden"> <!-- hidden by default-->
+				<a href="#">placeholder</a>
+				<a href="#">placeholder</a>
+				<a href="#">placeholder</a>
+			</div>
+
+		</nav>
+
+		<main>
+			<button class="toggle-hide">Test Button</button>
+			<div class="toggle-content hidden">
+				<p>This will be hidden when the button is clicked</p>
+			</div>
+		</main>
+
+		<footer>
+		</footer>
+
+	</div> <!-- ends pageWrap -->
+</body>
+
+</html>
