@@ -2,7 +2,7 @@
 
 :root {--GVSU-Blue: rgb(0, 101, 164);}
 
-body {font-family: 'Roboto', sans-serif; width: 80%; margin:auto;}
+body {font-family: 'Roboto', sans-serif !important; width: 80%; margin:auto;}
 
 header, nav {color: #FFFFFF; background-color: var(--GVSU-Blue); font-size: 1.5em;}
 header {padding: 1em 3em; font-size: 2em;}
@@ -22,14 +22,19 @@ nav a:link, a:visited {color: #FFFFFF;}
 .active {text-decoration: none;}
 
 main {background-color: rgb(232, 232, 232);}
+
+main a {color: var(--GVSU-Blue);}
+main a:active, main a:visited {color: rgb(119, 0, 255)}
+
 article {padding: 0.5em;}
 
-section {border: solid black 2px; padding: 0.5em; margin: 1em auto;}
+section {border: solid black 2px; padding: 0.5em; margin: 1em 1em;}
 
 h4 {margin: 0.5em auto;}
 
 ul {margin: 0.5em auto;}
 
+.indented {margin-left: 1.5em;}
 
 /*** Column CONTAINER ***/
 .box-columns-space-around{display:flex;flex-direction:row;width:100%;justify-content:space-around;}
